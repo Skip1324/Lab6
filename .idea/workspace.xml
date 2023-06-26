@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Client:jar" />
+      <artifact name="Server:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed0a1a43-c951-4753-a07d-d4b993107f14" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Client_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Server_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/InputManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/Exeception/IncorrectDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/Exeception/QuantityOfArgsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/Manager/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/Manager/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/Manager/CommandResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/Manager/CommunicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/Manager/IOManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/Manager/SenderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/Manager/Serializator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/data/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/data/Climate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/data/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/data/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/data/StandardOfLiving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/Manager/CollectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/Util/CityDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/Util/CitySerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/Util/CollectionManagerDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/Util/CollectionManagerSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/Util/CoordinatesDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/Util/HumanDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/Util/ParsJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/Util/ReceiveServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/ClearCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/ExecuteScriptCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/FilterByMetersAboveSeaLevelCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/FilterContainsNameCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/HelpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/InfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/InsertCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/PrintFieldDescendingStandartOfLivingCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/RemoveGreaterCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/RemoveKeyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/RemoveLowerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/RemoveLowerKeyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/SaveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/ShowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/commands/UpdateIdCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/log4j.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RYs2ItDPDMCBBFMFauvF5LrSCl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/skipulia/Desktop/gradle_proga/Lab6",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Server/src" />
+      <recent name="$PROJECT_DIR$/Server/src/Util" />
+      <recent name="$PROJECT_DIR$/Server" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed0a1a43-c951-4753-a07d-d4b993107f14" name="Changes" comment="" />
+      <created>1687438141845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687438141845</updated>
+      <workItem from="1687438144078" duration="4736000" />
+      <workItem from="1687521757865" duration="68000" />
+      <workItem from="1687522095351" duration="1111000" />
+      <workItem from="1687523381120" duration="4825000" />
+      <workItem from="1687698080225" duration="33096000" />
+      <workItem from="1687745563429" duration="610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
